@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    font-family: "Protest Riot", sans-serif;
+    width: 100%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 30px; 
+}
+ 
+img{ 
+    width: 150px;
+}
+h1{
+    font-size: 30px;
+    color: #101022;
+    font-family: "Protest Riot", sans-serif;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+    color: #101022;
+}
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Protest Riot", sans-serif;
+    justify-content: center;
+}
+.presentacion h1 {
+    font-size: 40px;
+    color: #101022;
+
+}
+.presentacion p{
+    width: 70%;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Protest Riot", sans-serif;
+    text-align: justify;
+    color: #101022;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-image: radial-gradient(circle, #8e4257, #ab666c, #c78c86, #e1b2a5, #fbd9c9);
+}
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: "Protest Riot", sans-serif;
+}
+
+.caja h2{
+    font-size: 30px;
+    color: #101022;
+}
+
+.caja img {
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 20px;
+    color: #101022;
+}
+
+.Personajes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Protest Riot", sans-serif;
+    justify-content: center;
+}
+.Personajes h2 {
+    font-size: 40px;
+    color: #101022;
+
+}
+.Personajes p{
+    width: 70%;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Protest Riot", sans-serif;
+    text-align: center;
+    color: #101022;
+}
+   
+#Audiolibros iframe{
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    border-radius: 30%;
+}
+body {
+    background-image: url(./Imagenes/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+
+
+#Audio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Protest Riot", sans-serif;
+    justify-content: center;
+}
+#Audio h2 {
+    font-size: 40px;
+    color: #101022;
+
+}
+#Audio p{
+    width: 70%;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Protest Riot", sans-serif;
+    text-align: center;
+    color: #101022;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: "Protest Riot", sans-serif;
+    margin: 10px 0 10px 0;
+    background-image: radial-gradient(circle, #8e4257, #ab666c, #c78c86, #e1b2a5, #fbd9c9);
+}

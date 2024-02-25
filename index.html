@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <title>LEER</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div>
+                <img src="./Imagenes/logo2.png" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <a href="#resumen"><li>RESUMEN</li></a>
+                    <a href="#Personajes"><li>PERSONAJES</li></a>
+                    <a href="https://www.gandhi.com.mx/"><li>COMPRAR</li></a>
+                    <a href="#Audio"><li>AUDIO LIBROS</li></a>
+                </ul>
+                <style>
+                    a{
+                        text-decoration: none;
+                        color: #101022;
+                    }
+                 </style>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container-fluid">
+        
+        <div class="presentacion">
+            <h1>VAMOS A LEER</h1>
+            <p>Leer es como darle una dosis de vitaminas al cerebro, vitaminas llenas de imaginación que aumentan nuestra creatividad y nos abren nuevas ventanas al saber, nos llevan a otros mundos o hacen que nos replanteemos los nuestros. Quizás, incluso, nos dan remedios a problemas que creíamos que no tenían solución.</p>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Imagenes/Banner p.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/banner r.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/banner c.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+            <div id="resumen" class="contenedor">
+                <div class="caja">
+                    <img src="./Imagenes/principito.png" alt="principito">
+                    <h2>EL PRINCIPITO</h2>
+                    <div id="contenido">
+                        <p>El Principito es una narración corta del escritor francés Antoine de Saint-Exupéry. La historia se centra en un pequeño príncipe que realiza una travesía por el universo. En este viaje descubre la extraña forma en que los adultos ven la vida y comprende el valor del amor y la amistad.</p>
+                    </div>
+                    <button onclick="muestra_oculta('contenido')" class="btn btn-primary" form="contenido">+</button>
+                </div>
+
+                <div class="caja">
+                    <img src="./Imagenes/ruiseñor.png" alt="el ruiseñor">
+                    <h2>EL RUISEÑOR Y LA ROSA</h2>
+                    <div id="contenido2">
+                        <p>Un cuento de hadas escrito por el poeta, escritor y dramaturgo británico-irlandés Oscar Wilde. Un ruiseñor oye los lamentos de un estudiante causados por la negativa de la hija de su profesor de bailar con él a menos que le traiga una rosa roja. </p>
+                    </div>
+                    <button onclick="muestra_oculta('contenido2')" class="btn btn-primary" form="contenido">+</button>
+                </div>
+
+                <div class="caja">
+                    <img src="./Imagenes/corazon.png" alt="corazon">
+                    <h2>EL CORAZÓN DELATOR</h2> 
+                    <div id="contenido3">  
+                        <p>El corazón delator (The Tell-Tale Heart) es uno de los cuentos más famosos del escritor norteamericano Edgar Allan Poe. En breves páginas, sumerge al lector en la mentalidad de un asesino y cuenta una historia que traspasa las fronteras del tiempo al tratar un tema universal: la culpa.</p> 
+                    </div>
+                    <button onclick="muestra_oculta('contenido3')" class="btn btn-primary" form="contenido">+</button>
+                </div>
+            </div>
+
+            <div id="Personajes" class="Personajes">
+                <h2> Personajes Principales</h2>
+                <p>Conoce un poco de los protagonistas de cada historia.</p>
+            </div>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Imagenes/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/8.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/9.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/10.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/11.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/12.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/13.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+    </div>
+
+
+<div id="Audio" class="container-fluid">
+    <h2> Audio Libros </h2>
+    <p>Los usuarios que escuchan libros afirman que se sumergen de lleno en una experiencia sensorial, introduciéndose en las historias contadas por las voces humanas que narran el libro.</p>
+    <div id="Audiolibros">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_LyQH01rfo8?si=xDmFAGHd847hZ1-P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RlsIezZHYtI?si=Y97IcS6rJRrlUMSl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/porETzRlVSs?si=qmgZqEULteP2g01W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="container-fluid">
+  <footer>
+    <p>"Un libro es un sueño que tienes en tus manos." Neil Gaiman</p>
+  </footer> 
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
